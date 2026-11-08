@@ -1,0 +1,128 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "Soccer Home"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Soccer App"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/auth/forgot-password",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/training/index",
+			"style": {
+				"navigationBarTitleText": "训练中心"
+			}
+		},
+		{
+			"path": "pages/match/index",
+			"style": {
+				"navigationBarTitleText": "赛事中心"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人档案"
+			}
+		},
+		{
+			"path": "pages/profile/settings",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "球员社区"
+			}
+		},
+		{
+			"path": "pages/academy/index",
+			"style": {
+				"navigationBarTitleText": "足球技术学院"
+			}
+		},
+		{
+			"path": "pages/health/index",
+			"style": {
+				"navigationBarTitleText": "健康与营养"
+			}
+		},
+		{
+			"path": "pages/match-experience/index",
+			"style": {
+				"navigationBarTitleText": "比赛日体验"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Soccer App",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#3CB371",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/image/水果1.png",
+				"selectedIconPath": "static/image/水果1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/training/index",
+				"iconPath": "static/image/水果2.png",
+				"selectedIconPath": "static/image/水果2.png",
+				"text": "训练"
+			},
+			{
+				"pagePath": "pages/match/index",
+				"iconPath": "static/image/水果3.png",
+				"selectedIconPath": "static/image/水果3.png",
+				"text": "赛事"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"iconPath": "static/image/水果4.png",
+				"selectedIconPath": "static/image/水果4.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/community/index",
+				"iconPath": "static/image/水果5.png",
+				"selectedIconPath": "static/image/水果5.png",
+				"text": "社区"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
